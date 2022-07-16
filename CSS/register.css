@@ -1,0 +1,58 @@
+body {
+    background-color: #30475E;
+    background-size: 100%;
+}
+header .nav {
+    display: flex;
+}
+.login {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.login h1 {
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    margin-bottom: 30px;
+}
+.login form {
+    width: 400px;
+    background-color: lightslategrey;
+    padding: 16px 15px;
+    border-radius: 5px;
+}
+.login form .user{
+    margin-bottom: 10px;
+}
+.login form label {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: white;
+    display: block;
+}
+.login form div input {
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid;
+}
+.login form #signup {
+    display: block;
+    margin-left: auto;
+    margin-top: 15px;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    font-weight: bold;
+    background: cadetblue;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.login form #signup:hover {
+    letter-spacing: 2px;
+}
